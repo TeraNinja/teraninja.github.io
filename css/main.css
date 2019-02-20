@@ -37,6 +37,10 @@ body {
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
+.text-align-r {
+    text-align: right;
+}
+
 .main-bg {
     position: absolute;
     top: 90px;
