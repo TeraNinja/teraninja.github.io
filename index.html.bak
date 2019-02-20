@@ -89,12 +89,12 @@
         </div>
 
         <!-- right side - logo -->
-        <div class="col-sm">
+        <!--<div class="col-sm">
           <div class="main-text text-center">
             <img src="/img/ninja_class.png" class="main-logo"><br>
             Ninja Guide
           </div>
-        </div>
+        </div>-->
 
 
       </div>
