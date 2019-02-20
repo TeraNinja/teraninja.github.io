@@ -107,63 +107,6 @@ a:active {
     cursor: pointer;
 }
 
-.inputfile {
-	width: 0.1px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-	z-index: -1;
-    cursor: pointer;
-}
-
-.inputfile + label {
-    background-color: #FA9C1E;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 19px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.inputfile + label:hover {
-    background-color: #CE7F18;
-    color: white;
-}
-
-.pointer {
-    cursor: pointer;
-}
-
-#gallery-28 .thumbnail{
-    padding-top: 42px;
-    padding-left: 77px;
-    width:28px;
-    height: 28px;
-    float:left;
-    margin:2px;
-}
-#gallery-28 .thumbnail img{
-    width:28px;
-    height: 28px;
-}
-
-#gallery-112 .thumbnail{
-    padding-left: 35px;
-    width: 112px;
-    height: 112px;
-    float:left;
-    margin:2px;
-}
-#gallery-112 .thumbnail img{
-    width: 112px;
-    height: 112px;
-}
-
 input[type=text] {
     text-align: center;
     border: 2px solid #FA9C1E;
@@ -192,4 +135,11 @@ input[type=text]:focus {
 
 .supporter-confirm {
     color: #FA9C1E;
+}
+
+.head-picture {
+    align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 80%;
 }
