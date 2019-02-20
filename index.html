@@ -78,7 +78,7 @@
       <!-- slideshow -->
       <div class="row pull-down">  
         <div class="col-sm center-max80">
-          <div id="slideshow-valky" class="carousel slide" data-ride="carousel" data-interval="15000">
+          <div id="slideshow-valky" class="carousel slide" data-ride="carousel">
             
             <ol class="carousel-indicators">
               <li data-target="#slideshow-valky" data-slide-to="0" class="active"></li>
@@ -146,7 +146,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   
     <!-- Custom JavaScript -->
-    <!--<script src="/scripts/cookie.js"></script>-->
+    <!-- Pause slideshow with mouse hover -->
+    <script>
+    $(function(){
+
+        $('#slideshow-valky.slide').carousel({
+            interval: 15000,
+            pause: "hover"
+        });
+
+        $('input').focus(function(){
+          $("#slideshow-valky").carousel('pause');
+        }).blur(function() {
+          $("#slideshow-valky").carousel('cycle');
+        });
+
+    });
+    </script>
   
   </body>
 </html>
