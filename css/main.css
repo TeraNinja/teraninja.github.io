@@ -30,6 +30,13 @@ body {
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
+.main-text-09 {
+    position: relative;
+    font-size: 0.9em;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
 .main-bg {
     position: absolute;
     top: 90px;
