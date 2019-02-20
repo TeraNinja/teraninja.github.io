@@ -95,6 +95,10 @@ a:active {
     margin-top: -20px;
 }
 
+.pull-up-slide {
+    margin-top: -50px;
+}
+
 input[type=text] {
     text-align: center;
     border: 2px solid #FA9C1E;
