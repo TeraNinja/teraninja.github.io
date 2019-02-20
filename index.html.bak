@@ -41,6 +41,9 @@
     </nav>
     <div class="container pull-up">
       <hr>
+      <div>
+        <img src="/img/head.png" class="main-logo">
+      </div>
     </div>
     
 
