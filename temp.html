@@ -55,7 +55,7 @@
     <div class="container">
       
 
-      <!-- Welcome -->
+      <!-- Title -->
       <div class="row pull-down">
           <div class="col-sm">
             <div class="main-text text-center">
@@ -75,10 +75,16 @@
       </div>
 
 
+      <!-- horizontal line -->
+      <div class="container pull-down">
+        <hr>
+      </div>
+
+
       <!-- slideshow -->
       <div class="row pull-down">  
         <div class="col-sm center-max80">
-          <div id="slideshow-valky" class="carousel slide" data-ride="carousel" data-interval="15000">
+          <div id="slideshow-valky" class="carousel slide" data-ride="carousel" data-interval="10000">
             
             <ol class="carousel-indicators">
               <li data-target="#slideshow-valky" data-slide-to="0" class="active"></li>
@@ -88,9 +94,11 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="/img/main/glyphs.png" alt="Glyphs">
+                <p class="main-text pull-up-slide">Glyphs</p>
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="/img/main/talents.png" alt="Talents">
+                <p class="main-text pull-up-slide">Talent Points</p>
               </div>
             </div>
 
@@ -146,7 +154,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   
     <!-- Custom JavaScript -->
-    <!--<script src="/scripts/cookie.js"></script>-->
+    <!-- Pause slideshow with mouse hover -->
+    <script>
+    $(function(){
+
+        $('#slideshow-valky.slide').carousel({
+            pause: "hover"
+        });
+
+        $('input').focus(function(){
+          $("#slideshow-valky").carousel('pause');
+        }).blur(function() {
+          $("#slideshow-valky").carousel('cycle');
+        });
+
+    });
+    </script>
   
   </body>
 </html>
