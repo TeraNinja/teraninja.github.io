@@ -168,3 +168,7 @@ input[type=text]:focus {
     margin-left: auto;
     margin-right: auto;
 }
+
+.skill-logo {
+    max-height: 56px;
+}
