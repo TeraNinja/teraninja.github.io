@@ -200,18 +200,13 @@ input[type=text]:focus {
 	border: 1px solid white;
 }
 
-.valk-design {
-	margin: 0 auto;
-	border: 1px solid white;
-}
-
-.preview-player {
+.valk-player {
     max-width: 100%;
 	margin: 0 auto;
 	border: 1px solid white;
 }
 
-.wrapper{
+.valk-wrapper{
     display:table;
     width:auto;
     position:relative;
