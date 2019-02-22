@@ -2,7 +2,7 @@
 // fade in/out player icon
 $('.valk-wrapper').click(function () {
     
-  
+
     if ($(this).children(".valk-player").get(0).paused) {
 
         // fade out icon and start video
@@ -30,4 +30,6 @@ $('.valk-wrapper').click(function () {
 
 });
 
+
+$('.valk-wrapper').children(".valk-player-logo").fadeIn();
 $('.valk-wrapper').children(".valk-player-mark").fadeOut();
