@@ -213,6 +213,21 @@ input[type=text]:focus {
 	border: 1px solid white;
 }
 
+.valk-player-remover {
+    background-image:url(/img/controls/remover.png);
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+
 .valk-player-logo {
     background-image:url(/img/controls/play.png);
     background-repeat:no-repeat;
@@ -229,7 +244,7 @@ input[type=text]:focus {
 }
 
 .valk-player-mark {
-    background-image:url(/img/ninja_icon.png);
+    background-image:url(/img/controls/mark.png);
     background-repeat:no-repeat;
     width:20%;
     height:20%;
